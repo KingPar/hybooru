@@ -1,0 +1,48 @@
+{
+    "name": "hybooru",
+    "description": "Hydrus-based booru-styled imageboard in React",
+    "version": "1.11.0",
+    "engines": {
+        "node": ">=14.0.0",
+        "npm": ">=7.0.0"
+    },
+    "main": "server.ts",
+    "author": "Fun Maker",
+    "repository": "https://github.com/funmaker/Hybooru",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@octokit/core": "^4.1.0",
+        "@ruffle-rs/ruffle": "^0.1.0-nightly.2023.10.2",
+        "axios": "^0.21.1",
+        "better-sqlite3": "^8.0.1",
+        "body-parser": "^1.19.0",
+        "chalk": "^4.1.0",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.5",
+        "core-js": "^3.26.1",
+        "csv-stringify": "^5.6.2",
+        "detect-node": "^2.0.5",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.0",
+        "express-promise-router": "^4.1.0",
+        "morgan": "^1.10.0",
+        "node-object-hash": "^2.3.1",
+        "pg": "^8.5.1",
+        "pg-copy-streams": "^5.1.1",
+        "prop-types": "^15.7.2",
+        "qs": "^6.11.2",
+        "react": "17.0.2",
+        "react-blurhash-async": "^0.0.17",
+        "react-dom": "17.0.2",
+        "react-hot-loader": "^4.13.0",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-toastify": "^7.0.3",
+        "resize-observer-polyfill": "^1.5.1",
+        "source-map-support": "^0.5.19",
+        "sql-template-strings": "^2.2.2",
+        "yaml": "^1.10.2"
+    }
+}

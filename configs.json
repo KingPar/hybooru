@@ -9,7 +9,7 @@
     "importBatchSize": 8192,
     "db": {
         "user": "hybooru",
-        "host": "localhost",
+        "host": "127.0.0.1",
         "database": "hybooru",
         "password": "hybooru",
         "port": 5432
